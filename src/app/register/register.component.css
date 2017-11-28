@@ -1,0 +1,13 @@
+h1
+{
+    color: white;
+    text-align: center;
+    background-image: url('./../../assets/bg1.jpg');
+    height: 100px;
+    text-indent:  100px;
+    padding-top: 20px;
+    margin: 0px auto;
+}
+form{
+    border: 2px solid red;
+}

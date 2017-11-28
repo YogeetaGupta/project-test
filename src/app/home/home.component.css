@@ -1,0 +1,22 @@
+div.home{
+    background-image: url("./../../assets/bg1.jpg");
+    text-align: center;
+    height: 600px;
+    width: 100%;
+    padding: 50px;
+    color: grey;
+}
+div.home p{
+    color: white;
+    word-spacing: 30px;
+    letter-spacing: 20px;
+    font-size: 60px !important;
+}
+div.home img{
+    height: 200px; 
+    width: 200px;
+    margin: 0px auto;
+}
+h3{
+    letter-spacing: 15px;
+}

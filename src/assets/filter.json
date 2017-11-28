@@ -1,0 +1,74 @@
+[
+    {
+        "image":"./assets/bulb.jpg",
+        "name":"LED Bulb Lights",
+        "id":1,
+        "code":"Ab23DF",
+        "avl":"Aug,2017",
+        "price":200,
+        "rating":4
+    },
+    {
+        "image":"./assets/cycle.jpg",
+        "name":"Sports Cycle",
+        "id":2,
+        "code":"Ab23DF",
+        "avl":"Aug,2017",
+        "price":200,
+        "rating":3
+    },
+    {
+        "image":"./assets/bus.jpg",
+        "name":"Deluxe Bus",
+        "id":3,
+        "code":"Ab23DF",
+        "avl":"Aug,2017",
+        "price":200,
+        "rating":2.5
+    },
+    {
+        "image":"./assets/disc.jpg",
+        "name":"Classy CDs",
+        "id":4,
+        "code":"Ab23DF",
+        "avl":"Aug,2017",
+        "price":200,
+        "rating":3.5
+    },
+    {
+        "image":"./assets/heart.jpg",
+        "name":"Beautiful Hearts",
+        "id":5,
+        "code":"Ab23DF",
+        "avl":"Aug,2017",
+        "price":200,
+        "rating":4.5
+    },
+    {
+        "image":"./assets/leaf.jpg",
+        "name":"Green Leaves",
+        "id":6,
+        "code":"Ab23DF",
+        "avl":"Aug,2017",
+        "price":200,
+        "rating":4
+    },
+    {
+        "image":"./assets/mela.jpg",
+        "name":"Festival",
+        "id":7,
+        "code":"Ab23DF",
+        "avl":"Aug,2017",
+        "price":200,
+        "rating":3.5
+    },
+    {
+        "image":"./assets/orenge.jpg",
+        "name":"Fruits-orange",
+        "id":8,
+        "code":"Ab23DF",
+        "avl":"Aug,2017",
+        "price":200,
+        "rating":3
+    }
+]

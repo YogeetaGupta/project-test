@@ -1,0 +1,52 @@
+<p>
+  about works!
+</p>
+
+  
+  
+  <input  id="filter" class="form-control"
+         placeholder="Search Your Product Here"
+         [(ngModel)]="filter">
+        <p style="color:white;"> Search By: {{filter}} </p>
+  <br>
+  
+  <button type="button" class="btn btn-default" (click)="toggel()"> 
+    {{isActive?'Hide':'Show'}} image
+  </button>
+  <br>
+  
+  <table class="table" border="1">
+    <thead>
+      <tr>
+        <th width="5%">ID</th>
+        <th width="10%">Image</th>
+        <th width="25%">Product</th>
+        <th width="35%">Code</th>
+        <th width="5%">Available</th>
+        <th width="5%">Price</th>
+        <th >Rating</th>
+      </tr>
+    </thead>
+    <tbody >
+      <tr *ngFor= "let rashan of products | FilterPipe:filter ">
+        <td><a [routerLink]="['/product',rashan.id]">{{rashan.id}}</a></td>
+        <td>
+          <img [src]="rashan.image" *ngIf="isActive"
+          (click)="toggle()">
+        </td>
+        <td>{{rashan.name}}</td>
+        <td>{{rashan.code}}</td>
+        <td>{{rashan.avl}}</td>
+        <td>{{rashan.price}}</td>
+        <td>
+          <rate 
+          [itemId]=rashan.rating
+          >
+        </rate>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  

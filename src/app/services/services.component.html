@@ -1,0 +1,32 @@
+<div class=" a ">
+<div class="dropdown" >
+  <ul *ngFor="let ser of service">
+    <li class="pull-right glyphicon "
+    [class.glyphicon-chevron-down] = '!isEnable'  
+    [class.glyphicon-chevron-up] = 'isEnable' 
+   (click)="toggle()"
+    >
+    {{ser.title}}
+   
+   </li>
+
+        <div class="cont" *ngIf="isEnable">
+                {{ser.content}}
+             </div>    
+
+</ul>
+  
+  
+   </div>
+    </div>
+            <div class="panel panel-info " align="center"*ngFor="let _photo of pic" >
+                <div class="panel-body">
+                  <img class="img-responsive" [src]="_photo.src" >
+                </div>
+                <div class="panel-footer">
+                    <span class="glyphicon glyphicon-heart"
+                    [class.highlighted]="islike"
+                    (click)="ULikes()"></span>{{totallikes}}
+                </div>
+            </div> 
+        

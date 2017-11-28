@@ -1,0 +1,73 @@
+
+<h1>
+  Register Here!
+</h1>
+<div class="well">
+  <div class="content">
+    <div class="row">
+      <div class="col-md-8 col-xs-12 col-sm-12 col-lg-8">
+        <form [formGroup]="userForm"   (ngSubmit)="Save(userForm.value)">
+          <div class="form-group"
+                
+              [ngClass]="{
+              'has-error':!userForm.controls['username'].valid && 
+              userForm.controls['username'].touched,
+              'has-success':userForm.controls['username'].valid
+              }"
+        
+          >
+             <span class="glyphicon glyphicon-user"></span>
+             <input type="text"
+                    name="username"
+                    placeholder="Enter your username"
+                    class="form-control"
+                    required
+                    minlength="5"
+                    formControlName="username"
+              >   
+              <div class="alert alert-danger"
+              *ngIf="userForm.controls['username'].hasError('required') && 
+              userForm.controls.username.touched
+              "
+              >
+              Username is required
+              </div>
+              <div class="alert alert-danger"
+              *ngIf="userForm.controls['username'].hasError('minlength')
+              && 
+              userForm.controls.username.touched
+              "
+              >
+              Username at least 5 characters
+              </div>
+          </div>    
+            <div class="form-group">
+              <input type="password"
+                     name="password"
+                     placeholder="Enter your Password"
+                     class="form-control" 
+                     required
+                     minlength="5"
+              >       
+          </div>    
+          <div class="form-group">
+              <input type="email"
+                        name="username"
+                        placeholder="Enter your Email-Id"
+                        class="form-control" 
+                        required
+              >   
+          </div>    
+              
+            <button type="submit" class="btn btn-md btn-danger"
+            [disabled]="!userForm.valid"
+            >
+              Register
+            </button>
+
+        
+        </form>              
+      </div>
+    </div>
+ </div>
+</div>

@@ -1,0 +1,39 @@
+[
+    {
+        "question":"Q.What is HTML?",
+        "ansA":"A.Hyper text markup laugauage.",
+        "ansB":"B.Webpage language.",
+        "ansC":"c.Desgin Language."
+    },
+    {
+        "question":"Q.What is CSS?",
+        "ansA":"A.Hyper text markup laugauage.",
+        "ansB":"B.Cascading Style SHeet",
+        "ansC":"C.Desgin Language."
+    },
+    {
+        "question":"Q.What is Bootstrap?",
+        "ansA":"A.Hyper text markup laugauage.",
+        "ansB":"B.Webpage language.",
+        "ansC":"C.Makes our website responsive."
+    },
+    {
+        "question":"Q.What is JavaScript?",
+        "ansA":"A.Dynamic, Untyped, Asynchronus, Interpreted Scripting Language",
+        "ansB":"B.Webpage language.",
+        "ansC":"C.Desgin Language."
+    },
+    {
+        "question":"Q.What is TYpeScript?",
+        "ansA":"A.Dynamic, Untyped, Asynchronus, Interpreted Scripting Language.",
+        "ansB":"B.Super set of JavaScript.",
+        "ansC":"C.Desgin Language."
+    },
+    {
+        "question":"Q.What is Angular2?",
+        "ansA":"A.Dynamic, Untyped, Asynchronus, Interpreted Scripting Language",
+        "ansB":"B.Webpage language.",
+        "ansC":"C.Object Orinted Programming language"
+    }
+        
+]

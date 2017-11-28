@@ -1,0 +1,45 @@
+div.dropdown
+{
+    height: 300px;
+    width: 250px;
+    margin: 0px auto;
+}
+div.dropdown ul li
+{
+    font-size: 25px;
+    width:250px;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    color:white;
+    padding: 10px;
+    border: 2px solid gray;
+}
+div.a
+{
+    background-image: url('./../../assets/bg1.jpg');
+    overflow: hidden;
+    height: 580px;
+    padding-top: 120px;
+    background-repeat: no-repeat;
+}
+div.cont
+{
+    font-size: 20px;
+    color: black;
+    border: 2px solid white;
+}
+
+div.row
+{
+    margin: 20px auto;
+}
+div.panel {
+    height: 280px;
+    width:365px;
+    float: left;
+    margin: 30px 40px;
+}
+span.glyphicon{cursor:pointer; font-size:25px;}
+.highlighted{color:hotpink;}
+
